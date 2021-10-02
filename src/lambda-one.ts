@@ -6,6 +6,6 @@ export const handler: APIGatewayProxyHandlerV2 = async (
   return {
     statusCode: 200,
     headers: { "Content-Type": "text/plain" },
-    body: `Hello lambda one, Your request was received at ${event.requestContext.time}.`,
+    body: `Hello lambda one has some changes, Your request was received at ${event.requestContext.time}.`,
   };
 };

@@ -55,28 +55,28 @@ export default class MyStack extends sst.Stack {
 
     // Show the endpoint in the output
     this.addOutputs({
-      "ApiEndpoint": apiOne.url,
+      "ApiEndpointOne": apiOne.url,
     });
     this.addOutputs({
-      "ApiEndpoint": apiTwo.url,
+      "ApiEndpointTwo": apiTwo.url,
     });
     this.addOutputs({
-      "ApiEndpoint": apiThree.url,
+      "ApiEndpointThree": apiThree.url,
     });
     this.addOutputs({
-      "ApiEndpoint": apiFour.url,
+      "ApiEndpointFour": apiFour.url,
     });
     this.addOutputs({
-      "ApiEndpoint": apiFive.url,
+      "ApiEndpointFive": apiFive.url,
     });
     this.addOutputs({
-      "ApiEndpoint": apiSix.url,
+      "ApiEndpointSix": apiSix.url,
     });
     this.addOutputs({
-      "ApiEndpoint": apiSeven.url,
+      "ApiEndpointSeven": apiSeven.url,
     });
     this.addOutputs({
-      "ApiEndpoint": apiEight.url,
+      "ApiEndpointEight": apiEight.url,
     });
   }
 }

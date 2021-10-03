@@ -14,8 +14,10 @@
     "@types/aws-lambda": "^8.10.70"
   },
   "dependencies": {
+    "@aws-cdk/aws-stepfunctions": "1.114.0",
+    "@aws-cdk/aws-stepfunctions-tasks": "1.114.0",
+    "@aws-cdk/core": "1.114.0",
     "@serverless-stack/cli": "0.43.2",
-    "@serverless-stack/resources": "0.43.2",
-    "@aws-cdk/core": "1.114.0"
+    "@serverless-stack/resources": "0.43.2"
   }
 }
